@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Context workDir="D:\JAVA\semipractice\semiProject\web\WEB-INF\jspwork">
+
+    <!-- Default set of monitored resources -->
+	<WatchedResource>WEB-INF/web.xml</WatchedResource>
+
+	<!-- Uncomment this to disable session persistence across Tomcat restarts -->
+	<!--
+    <Manager pathname="" />
+    -->
+
+	<!-- Uncomment this to enable Comet connection tacking (provides events
+         on session expiration as well as webapp lifecycle) -->
+	<!--
+    <Valve className="org.apache.catalina.valves.CometConnectionManagerValve" />
+    -->
+	<Resource auth="Container" driverClassName="oracle.jdbc.OracleDriver" maxActive="20" maxIdle="10" maxWait="-1" name="jdbc/oraDB" password="semi" type="javax.sql.DataSource"
+		url="jdbc:oracle:thin:@127.0.0.1:1521:xe" username="semi" />
+</Context>
