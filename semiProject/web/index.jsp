@@ -9,7 +9,7 @@
 %>
 
 	<!-- 0911 git -->
-	<!-- 0911. 2 : 반영? -->
+	<!-- 0911. 2 : 반영? ?-->
 	<%@ include file="header.jsp" %>
 	<script type="text/javascript">
 	function move(){
